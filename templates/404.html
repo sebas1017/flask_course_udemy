@@ -1,0 +1,11 @@
+{% extends 'base.html' %} 
+{% block title %}
+    {{ super() }}
+        404 Endpoint /Url no existe en nuestra plataforma
+{% endblock %}
+
+
+{% block content %} 
+    <h2>Lo sentimos este url /recurso no existe en nuestra plataforma </h2>
+    <p>{{ error }}</p>
+{% endblock %}
